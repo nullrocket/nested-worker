@@ -9,7 +9,7 @@ import support from './worker-support.js';
 const supportsNestedWorker = typeof Worker === 'function';
 
 if (supportsNestedWorker) {
-  support();
+  // support();
 } else {
   noSupport();
 }
